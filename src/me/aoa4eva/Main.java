@@ -50,7 +50,7 @@ public class Main {
         }while(userDate==null);
 
         //Display the date entered
-       // System.out.println(userDate.format(shortMonthFormat));
+       System.out.println(userDate.format(shortMonthFormat));
 
     }
 }
