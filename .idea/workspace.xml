@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6201bc32-60b5-40e4-bf1c-dd646696a218" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/aoa4eva/Main.java" afterPath="$PROJECT_DIR$/src/me/aoa4eva/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,7 +166,7 @@
       <workItem from="1509016846257" duration="3885000" />
       <workItem from="1509022394010" duration="545000" />
       <workItem from="1509025854559" duration="3761000" />
-      <workItem from="1509040607984" duration="1414000" />
+      <workItem from="1509040607984" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="Updated date example. Includes a loop">
       <created>1509022783049</created>
@@ -197,11 +196,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509032521057</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modified to the requirement of the assignment">
+      <created>1509042101746</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1509042101746</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9605000" />
+    <option name="totallyTimeSpent" value="9692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1922" height="1061" extended-state="6" />
@@ -245,7 +251,8 @@
     <MESSAGE value="Updated date example. Includes a loop" />
     <MESSAGE value="Modified loop for 2 conditions" />
     <MESSAGE value="Modified loop for 2 conditions and updated try catch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified loop for 2 conditions and updated try catch" />
+    <MESSAGE value="modified to the requirement of the assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified to the requirement of the assignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
