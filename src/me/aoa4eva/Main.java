@@ -22,6 +22,7 @@ public class Main {
         DateTimeFormatter shortMonthFormat = DateTimeFormatter.ofPattern("dd MMM yyyy");
         DateTimeFormatter longFormat = DateTimeFormatter.ofPattern("dd MMMM yyyy");
 
+        //Time formatter (time only)
         DateTimeFormatter hr24 = DateTimeFormatter.ofPattern("kk:m");
         System.out.println("The current date is: "+rightNow.format(longFormat));
         System.out.println("This is the current date and time unformatted: "+rightNow);
@@ -37,7 +38,9 @@ public class Main {
             {
                 System.out.println("Unable to convert the string you entered to date. Please try again!");
             }
-        }while(userDate==null);
+            if(userDate.isAfter(LocalDate.now()))
+                System.out.println("The date must be in the past");
+        }while(userDate==null||userDate.isAfter(LocalDate.now()));
 
         //Display the date entered
         System.out.println(userDate.format(shortMonthFormat));
