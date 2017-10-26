@@ -38,16 +38,19 @@ public class Main {
             System.out.println("Enter a date in the past(dd/mm/yyyy)");
             try{
                 userDate = LocalDate.parse(keyboard.nextLine(),dTF);
+                if(userDate.isAfter(LocalDate.now())&&userDate!=null)
+                    System.out.println("The date must be in the past");
             }catch(Exception e)
             {
-                System.out.println("Unable to convert the string you entered to date. Please try again!");
+
+                   System.out.println("Unable to convert the string you entered to date. Please try again!");
+
             }
-            if(userDate.isAfter(LocalDate.now()))
-                System.out.println("The date must be in the past");
-        }while(userDate==null||userDate.isAfter(LocalDate.now()));
+
+        }while(userDate==null);
 
         //Display the date entered
-        System.out.println(userDate.format(shortMonthFormat));
+       // System.out.println(userDate.format(shortMonthFormat));
 
     }
 }
