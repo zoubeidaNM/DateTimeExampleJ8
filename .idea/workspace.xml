@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6201bc32-60b5-40e4-bf1c-dd646696a218" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DateTimeExampleJ8/me/aoa4eva/Main.class" afterPath="$PROJECT_DIR$/out/production/DateTimeExampleJ8/me/aoa4eva/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/aoa4eva/Main.java" afterPath="$PROJECT_DIR$/src/me/aoa4eva/Main.java" />
     </list>
@@ -19,11 +18,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/aoa4eva/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="257">
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1509022686000" expanded="true" signature="1266:1780" ph="..." />
+                <marker date="1509024488000" expanded="true" signature="1398:1912" ph="..." />
               </folding>
             </state>
           </provider>
@@ -146,12 +145,20 @@
       <option name="presentableId" value="Default" />
       <updated>1509016839350</updated>
       <workItem from="1509016846257" duration="3885000" />
-      <workItem from="1509022394010" duration="281000" />
+      <workItem from="1509022394010" duration="545000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated date example. Includes a loop">
+      <created>1509022783049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509022783050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4166000" />
+    <option name="totallyTimeSpent" value="4430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -191,6 +198,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated date example. Includes a loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated date example. Includes a loop" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -202,7 +213,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1509022686000" expanded="true" signature="1266:1780" ph="..." />
+            <marker date="1509024488000" expanded="true" signature="1398:1912" ph="..." />
           </folding>
         </state>
       </provider>
@@ -216,11 +227,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/aoa4eva/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="257">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1509022686000" expanded="true" signature="1266:1780" ph="..." />
+            <marker date="1509024488000" expanded="true" signature="1398:1912" ph="..." />
           </folding>
         </state>
       </provider>

@@ -24,8 +24,12 @@ public class Main {
 
         //Time formatter (time only)
         DateTimeFormatter hr24 = DateTimeFormatter.ofPattern("kk:m");
+
+        //Output today's date in formats that have been preset
         System.out.println("The current date is: "+rightNow.format(longFormat));
         System.out.println("This is the current date and time unformatted: "+rightNow);
+
+        //Output the current time in formats that have been preset
         System.out.println("This is the current system time: "+ LocalTime.now());
         System.out.println("This is the current system time (24 h format): "+LocalTime.now().format(hr24));
 
